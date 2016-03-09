@@ -3,8 +3,8 @@
 
 
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppName">Telegramma</string>
+    <string name="AppNameBeta">Telegramma Beta</string>
     <string name="LanguageName">English</string>
     <string name="LanguageNameInEnglish">English</string>
     <string name="LanguageCode">en</string>
@@ -1077,6 +1077,10 @@
     <string name="AndOther_few">and %1$d others</string>
     <string name="AndOther_many">and %1$d others</string>
     <string name="AndOther_other">and %1$d others</string>
+    <string name="Calendar">Calendar</string>
+    <string name="GregorianCalendar">Gregoiran</string>
+    <string name="PersianCalendar">Persian</string>
+
     <!--date formatters-->
     <string name="formatterMonthYear">MMMM yyyy</string>
     <string name="formatterMonth">MMM dd</string>

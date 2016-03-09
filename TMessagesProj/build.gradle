@@ -10,6 +10,8 @@ dependencies {
     compile "com.google.android.gms:play-services-maps:8.4.0"
     compile 'net.hockeyapp.android:HockeySDK:3.6.+'
     compile 'com.googlecode.mp4parser:isoparser:1.0.+'
+    compile 'com.ibm.icu:icu4j:51.1'
+    compile 'com.android.support:multidex:'
 }
 
 android {
@@ -17,7 +19,7 @@ android {
     buildToolsVersion '23.0.2'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "com.panahit.telegramma"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
@@ -85,5 +87,11 @@ android {
         targetSdkVersion 23
         versionCode 755
         versionName "3.6.1"
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
     }
 }

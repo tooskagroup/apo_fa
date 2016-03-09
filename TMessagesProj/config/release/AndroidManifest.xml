@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.telegram.messenger"
+    package="com.panahit.telegramma"
     android:installLocation="auto">
 
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
@@ -15,15 +15,15 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <permission android:name="org.telegram.messenger.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
-    <permission android:name="org.telegram.messenger.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <permission android:name="com.panahit.telegramma.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.panahit.telegramma.permission.C2D_MESSAGE" android:protectionLevel="signature" />
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/AppName"
         android:theme="@style/Theme.TMessages.Start"
-        android:name=".ApplicationLoader"
+        android:name="com.panahit.telegramma.ApplicationLoader"
         android:hardwareAccelerated="@bool/useHardwareAcceleration"
         android:largeHeap="true">
 
@@ -42,21 +42,21 @@
             </intent-filter>
         </receiver>
         <service
-            android:name=".GcmPushListenerService"
+            android:name="com.panahit.telegramma.GcmPushListenerService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
         <service
-            android:name=".GcmInstanceIDListenerService"
+            android:name="com.panahit.telegramma.GcmInstanceIDListenerService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
         </service>
         <service
-            android:name=".GcmRegistrationIntentService"
+            android:name="com.panahit.telegramma.GcmRegistrationIntentService"
             android:exported="false">
         </service>
 
