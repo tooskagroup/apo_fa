@@ -58,7 +58,7 @@ public class CalendarSelectActivity extends BaseFragment {
 
         actionBar.setBackButtonImage(R.drawable.ic_ab_back);
         actionBar.setAllowOverlayTitle(true);
-        actionBar.setTitle(LocaleController.getString("Calendar", R.string.Language));
+        actionBar.setTitle(LocaleController.getString("Calendar", R.string.Calendar));
 
         actionBar.setActionBarMenuOnItemClick(new ActionBar.ActionBarMenuOnItemClick() {
             @Override

@@ -681,6 +681,7 @@ public class LocaleController {
             FileLog.e("tmessages", e);
             changingConfiguration = false;
         }
+        applyCalendar(currentCalendarInfo, true);
         recreateFormatters();
     }
 
