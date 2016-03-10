@@ -1088,4 +1088,7 @@
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">a h:mm</string>
     <string name="formatDateAtTime">%1$s %2$s</string>
+    <string name="PersianCalendar">페르시아 인</string>
+    <string name="GregorianCalendar">그레고리</string>
+    <string name="Calendar">달력</string>
 </resources>

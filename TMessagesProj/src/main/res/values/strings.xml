@@ -1078,7 +1078,7 @@
     <string name="AndOther_many">and %1$d others</string>
     <string name="AndOther_other">and %1$d others</string>
     <string name="Calendar">Calendar</string>
-    <string name="GregorianCalendar">Gregoiran</string>
+    <string name="GregorianCalendar">Gregorian</string>
     <string name="PersianCalendar">Persian</string>
 
     <!--date formatters-->

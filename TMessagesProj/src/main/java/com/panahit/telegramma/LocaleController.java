@@ -341,6 +341,13 @@ public class LocaleController {
             String cal = preferences.getString("calendar", null);
             if (cal != null) {
                 currentCalendar = calendarsDict.get(cal);
+                currentCalendarInfo = currentCalendar;
+                if (currentCalendar != null) {
+                    override = true;
+                }
+            } else {
+                currentCalendar = calendarsDict.get("gregorian");
+                currentCalendarInfo = currentCalendar;
                 if (currentCalendar != null) {
                     override = true;
                 }

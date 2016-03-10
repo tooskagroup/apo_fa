@@ -1088,4 +1088,7 @@
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s الساعة %2$s</string>
+    <string name="PersianCalendar">اللغة الفارسية</string>
+    <string name="GregorianCalendar">الميلادي</string>
+    <string name="Calendar">تقويم</string>
 </resources>

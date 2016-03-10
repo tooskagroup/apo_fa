@@ -1088,4 +1088,7 @@
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s às %2$s</string>
+    <string name="PersianCalendar">persa</string>
+    <string name="GregorianCalendar">Gregoriano</string>
+    <string name="Calendar">Calendário</string>
 </resources>
